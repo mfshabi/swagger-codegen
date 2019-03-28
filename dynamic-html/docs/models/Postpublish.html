@@ -1,0 +1,27 @@
+
+<h2>Postpublish</h2>
+<ul class="parameter">
+  <li class="param-required-true">_METHOD : String
+    <br/>To cast request method POST to PUT
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">name : String
+    <br/>Stream name should be in the format part-1/part-2. &lt;br&gt;Each part should have minimum 3 chars, separated by forward slash ‘/’, without any space.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">server : String
+    <br/>server.code, should be one of the server code from the GET /streams/publish/servers call
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">type : String
+    <br/>Enter value  restream/push
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">url[] : String
+    <br/>Type is pull enter source url
+  </li>
+</ul>

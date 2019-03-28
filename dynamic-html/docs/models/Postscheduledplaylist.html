@@ -1,0 +1,57 @@
+
+<h2>Postscheduledplaylist</h2>
+<ul class="parameter">
+  <li class="param-required-true">_METHOD : String
+    <br/>To cast request method POST to PUT
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">name : String
+    <br/>Stream name should be in the format part-1/part-2. &lt;br&gt;Each part should have minimum 3 chars, separated by forward slash ‘/’, without any space.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">parent : String
+    <br/>parent.codeshould be one of the parent code from the GET /streams/scheduledplaylist/parents call.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">audioonly : String
+    <br/>Values can be Y or N. &lt;br&gt;Set to Y if the HLS audio only stream should be added to the manifest file.&lt;br&gt;Set to Y if the HLS audio only stream should not be added
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">preroll : String
+    <br/>Values can br Y or N&lt;br&gt;Set to Y if publish should be enabled. &lt;br&gt; Set to Y if publish should be disabled.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">loop : String
+    <br/>Values can be Y or N. &lt;br&gt;Set to Y for loop schedules
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">domainlock : streamstimeshiftnew_domainlock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">geoblock : streamstimeshiftnew_geoblock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">securetoken : streamstimeshiftnew_securetoken
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">rtmpauth : streamsabrnew_rtmpauth
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">eac : streamsabrnew_eac
+    <br/>
+  </li>
+</ul>

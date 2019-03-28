@@ -1,0 +1,731 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="createZoneVodPush"></a>createZoneVodPush</h2>
+  <hr>
+  <p></p>
+  <p>Create a new VOD push Zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/new</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_41"><a href="">inline_response_200_41</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">_METHOD</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">server</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">cnames</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">cache[cache]</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">live</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">edge</span>
+      <span class="param-type">zoneshttppushnew_edge</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">domainlock</span>
+      <span class="param-type">zoneshttppushnew_domainlock</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">securetoken</span>
+      <span class="param-type">zoneshttppullnew_securetoken</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ssl</span>
+      <span class="param-type">zoneshttppullnew_ssl</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="getVodzone"></a>getVodzone</h2>
+  <hr>
+  <p></p>
+  <p>Return  VoD push zone details</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_45"><a href="">inline_response_200_45</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+  </ul>
+  <h2><a name="restoreZoneVod"></a>restoreZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Restore VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/restore</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_5"><a href="">inline_response_200_5</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+  </ul>
+  <h2><a name="updateDomainLockZoneVod"></a>updateDomainLockZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update Domain lock of VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/domainlock</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_48"><a href="">inline_response_200_48</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">list</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">type</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateEdgeSettingsZoneVod"></a>updateEdgeSettingsZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update Edge settings of VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/edge</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_48"><a href="">inline_response_200_48</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">compression</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">compressionlevel</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">disposition</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">cors</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">pseudostreaming</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateExternalAuthControlZoneVod"></a>updateExternalAuthControlZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update External auth control for  of VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/eac</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_47"><a href="">inline_response_200_47</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">authurl</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateGeoblockZoneVod"></a>updateGeoblockZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update Geoblock of VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/geoblock</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_46"><a href="">inline_response_200_46</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">list</span>
+      <span class="param-type">streamsabrstreamidgeoblock_list</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateSslZoneVod"></a>updateSslZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update SSL of VoD push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/ssl</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_43"><a href="">inline_response_200_43</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">http2</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">mode</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">certid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">name</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">crt</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">cabundle</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateinfoZoneVod"></a>updateinfoZoneVod</h2>
+  <hr>
+  <p></p>
+  <p>Update information of a VoD Push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_45"><a href="">inline_response_200_45</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">cnames</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="zoneVodCachePurge"></a>zoneVodCachePurge</h2>
+  <hr>
+  <p></p>
+  <p>Purge cache of a VoD Push zone</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push/{zoneid}/purge</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_5"><a href="">inline_response_200_5</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">zoneid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Zone ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">_METHOD</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="zoneVodPushList"></a>zoneVodPushList</h2>
+  <hr>
+  <p></p>
+  <p>Return VoD Push zones</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/zones/vod/push</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_36"><a href="">inline_response_200_36</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+  </ul>
+</div>

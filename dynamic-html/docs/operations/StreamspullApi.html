@@ -1,0 +1,812 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="createStreamsPull"></a>createStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Create a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/new</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">_METHOD</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">name</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">restreamtype</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">server</span>
+      <span class="param-type">streamsrestreamnew_server</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">url</span>
+      <span class="param-type">streamsrestreamnew_url</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">audioonly</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">domainlock</span>
+      <span class="param-type">streamstimeshiftnew_domainlock</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">geoblock</span>
+      <span class="param-type">streamsrestreamnew_geoblock</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">backup</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">audiofix</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">securetoken</span>
+      <span class="param-type">streamstimeshiftnew_securetoken</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">record</span>
+      <span class="param-type">streamsrestreamnew_record</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">eac</span>
+      <span class="param-type">streamsabrnew_eac</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="getDetailsStreamsPull"></a>getDetailsStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Return the details of a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_8"><a href="">inline_response_200_8</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+  </ul>
+  <h2><a name="listPullStreams"></a>listPullStreams</h2>
+  <hr>
+  <p></p>
+  <p>pull streams list</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_6"><a href="">inline_response_200_6</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+  </ul>
+  <h2><a name="restartStreamsPull"></a>restartStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Restart a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/restart</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_5"><a href="">inline_response_200_5</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+  </ul>
+  <h2><a name="restoreStreamsPull"></a>restoreStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Restore a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/restore</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_5"><a href="">inline_response_200_5</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+  </ul>
+  <h2><a name="serversStreamsPull"></a>serversStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Return the list of servers of publish stream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/servers</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_9"><a href="">inline_response_200_9</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+  </ul>
+  <h2><a name="updateDomainlockStreamsPull"></a>updateDomainlockStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Update domain lock of a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/domainlock</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">list</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">type</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateDvrStreamsPull"></a>updateDvrStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Update DVR of a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/record</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">enabled</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">retention</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateExternalAuthControlStreamsPull"></a>updateExternalAuthControlStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Update External auth control for restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/eac</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">authurl</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateGeoblockStreamsPull"></a>updateGeoblockStreamsPull</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/geoblock</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">list</span>
+      <span class="param-type">streamsabrstreamidgeoblock_list</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateSecuretokenStreamsPull"></a>updateSecuretokenStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Update secure token of a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/securetoken</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">policy</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">list</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">ips</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">timeout</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updateSourceStreamsPull"></a>updateSourceStreamsPull</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}/source</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_8"><a href="">inline_response_200_8</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">restreamtype</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">server</span>
+      <span class="param-type">streamsrestreamnew_server</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">url</span>
+      <span class="param-type">streamsrestreamstreamidsource_url</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">audiofix</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+  <h2><a name="updatesStreamsPull"></a>updatesStreamsPull</h2>
+  <hr>
+  <p></p>
+  <p>Update information of a restream</p>
+  <h3 class="section">URL</h3>
+  <code>https://api.5centscdn.com/v1/streams/restream/{streamid}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="inline_response_200_7"><a href="">inline_response_200_7</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      
+      <span class="param-in">Header: </span>
+      
+      <span class="param-name">X-API-Key</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Your API Key</p>
+	  </li>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">streamid</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Stream ID</p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">audioonly</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+	  <li class="parameter">
+      <span class="param-in">Form: </span>
+      
+      
+      
+      
+      <span class="param-name">backup</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description"></p>
+	  </li>
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+
+<h2>PostSecureToken</h2>
+<ul class="parameter">
+  <li class="param-required-false">policy : String
+    <br/>Values can be Y or N. &lt;br&gt;Set to Y if secure token should be enabled.&lt;br&gt; Set to N if secure token should be disabled.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">list : String
+    <br/>List can be a random alpha numeric string, [A-Za-z0-9]
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">ips : String
+    <br/>List of IPs to whitelist when secure token is enabled. IPs should be separated by comma. &lt;br&gt;Eg: 192.168.0.1, 192.168.0.2
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">timeout : Integer
+    <br/>Secure token link expiration time in seconds  min: 5, max: 25200
+  </li>
+</ul>

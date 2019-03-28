@@ -1,0 +1,37 @@
+
+<h2>PostZonessl</h2>
+<ul class="parameter">
+  <li class="param-required-false">http2 : String
+    <br/>Values can be Y or N.&lt;br&gt; Set to Y for enabling HTTP/2.&lt;br&gt;Set to N for disabling HTTP/2.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">mode : String
+    <br/>Select SSL type. &lt;br&gt; The value can be N,S or C.&lt;br&gt; Set to N for None&lt;br&gt; Set to S for Shared.&lt;br&gt;Set to C for Custom.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">certid : Integer
+    <br/>SSL Certificate ID. It can be set if  ssl[mode] is C &lt;br&gt; The value will be already uploaded SSL Certificate ID
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">name : String
+    <br/>SSL name . It can be set if  ssl mode is other than C.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">crt : String
+    <br/>SSL certificate ID . It can be set if  ssl mode is other than C.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">key : String
+    <br/>SSL certificate Key. It can be set if  ssl mode  is other than C.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">cabundle : String
+    <br/>SSL  CA bundle . It can be set if  ssl[mode] is other than C
+  </li>
+</ul>

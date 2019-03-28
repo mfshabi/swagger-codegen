@@ -1,0 +1,52 @@
+
+<h2>CreatePushStream</h2>
+<ul class="parameter">
+  <li class="param-required-true">_METHOD : String
+    <br/>To cast request method POST to PUT
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">name : String
+    <br/>Stream name.&lt;br&gt;Should be in the format part-1/part-2. Each part should have minimum 3 chars, separated by forward slash ‘/’, without any space
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">server : String
+    <br/>server.code, Should be one of the server code from the GET /streams/push/servers call
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">audioonly : String
+    <br/>Values can be Y or N. &lt;br&gt;Set to Y if the HLS audio only stream should be added to the manifest file.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">domainlock : streamstimeshiftnew_domainlock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">geoblock : streamstimeshiftnew_geoblock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">rtmpauth : streamsabrnew_rtmpauth
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">record : streamspushnew_record
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">securetoken : streamstimeshiftnew_securetoken
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">eac : streamsabrnew_eac
+    <br/>
+  </li>
+</ul>

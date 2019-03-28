@@ -1,0 +1,67 @@
+
+<h2>PostRestream</h2>
+<ul class="parameter">
+  <li class="param-required-true">_METHOD : String
+    <br/>request method  PUT
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">name : String
+    <br/>Stream name.&lt;br&gt;Should be in the format part-1/part-2. Each part should have minimum 3 chars, separated by forward slash ‘/’, without any space
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-true">restreamtype : String
+    <br/>The values can be mediaserver or ffmpeg.&lt;br&gt; mediaserver: for restreaming via media server.&lt;br&gt; ffmpeg: for restreaming via ffmpeg server
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">server : streamsrestreamnew_server
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">url : streamsrestreamnew_url
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">audioonly : String
+    <br/>Values can be Y or N&lt;br&gt;Set to Y if the HLS audio only stream should be added to the manifest file
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">domainlock : streamstimeshiftnew_domainlock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">geoblock : streamsrestreamnew_geoblock
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">backup : String
+    <br/>A link to backup video to roll when there is no publish
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">audiofix : String
+    <br/>Used to transcode the audio stream to aac using ffmpeg if required.&lt;br&gt; Available only when &#x27;ffmpeg&#x27; restream type is chosen.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">securetoken : streamstimeshiftnew_securetoken
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">record : streamsrestreamnew_record
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-false">eac : streamsabrnew_eac
+    <br/>
+  </li>
+</ul>
