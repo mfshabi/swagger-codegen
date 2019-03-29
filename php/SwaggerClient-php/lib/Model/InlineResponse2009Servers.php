@@ -56,7 +56,7 @@ class InlineResponse2009Servers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'mediaservers' => '\Swagger\Client\Model\InlineResponse2004ServersMediaservers',
+        'mediaservers' => '\Swagger\Client\Model\InlineResponse2004ServersWowzaservers',
 'ffmpegservers' => '\Swagger\Client\Model\FfmpegserversList[]'    ];
 
     /**
@@ -205,7 +205,7 @@ class InlineResponse2009Servers implements ModelInterface, ArrayAccess
     /**
      * Gets mediaservers
      *
-     * @return \Swagger\Client\Model\InlineResponse2004ServersMediaservers
+     * @return \Swagger\Client\Model\InlineResponse2004ServersWowzaservers
      */
     public function getMediaservers()
     {
@@ -215,7 +215,7 @@ class InlineResponse2009Servers implements ModelInterface, ArrayAccess
     /**
      * Sets mediaservers
      *
-     * @param \Swagger\Client\Model\InlineResponse2004ServersMediaservers $mediaservers mediaservers
+     * @param \Swagger\Client\Model\InlineResponse2004ServersWowzaservers $mediaservers mediaservers
      *
      * @return $this
      */

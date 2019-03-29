@@ -56,7 +56,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'string' => '\Swagger\Client\Model\ServersList'    ];
+        '_01' => '\Swagger\Client\Model\ServersList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -64,7 +64,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'string' => null    ];
+        '_01' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -93,7 +93,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
      * @var string[]
      */
     protected static $attributeMap = [
-        'string' => 'string'    ];
+        '_01' => '01'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -101,7 +101,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
      * @var string[]
      */
     protected static $setters = [
-        'string' => 'setString'    ];
+        '_01' => 'set01'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -109,7 +109,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
      * @var string[]
      */
     protected static $getters = [
-        'string' => 'getString'    ];
+        '_01' => 'get01'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -169,7 +169,7 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
      */
     public function __construct(array $data = null)
     {
-        $this->container['string'] = isset($data['string']) ? $data['string'] : null;
+        $this->container['_01'] = isset($data['_01']) ? $data['_01'] : null;
     }
 
     /**
@@ -197,25 +197,25 @@ class InlineResponse2004ServersMediaservers implements ModelInterface, ArrayAcce
 
 
     /**
-     * Gets string
+     * Gets _01
      *
      * @return \Swagger\Client\Model\ServersList
      */
-    public function getString()
+    public function get01()
     {
-        return $this->container['string'];
+        return $this->container['_01'];
     }
 
     /**
-     * Sets string
+     * Sets _01
      *
-     * @param \Swagger\Client\Model\ServersList $string string
+     * @param \Swagger\Client\Model\ServersList $_01 _01
      *
      * @return $this
      */
-    public function setString($string)
+    public function set01($_01)
     {
-        $this->container['string'] = $string;
+        $this->container['_01'] = $_01;
 
         return $this;
     }

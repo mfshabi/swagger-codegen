@@ -387,6 +387,7 @@ Class | Method | HTTP request | Description
  - [InlineResponse20049](docs/Model/InlineResponse20049.md)
  - [InlineResponse2004Servers](docs/Model/InlineResponse2004Servers.md)
  - [InlineResponse2004ServersMediaservers](docs/Model/InlineResponse2004ServersMediaservers.md)
+ - [InlineResponse2004ServersWowzaservers](docs/Model/InlineResponse2004ServersWowzaservers.md)
  - [InlineResponse2005](docs/Model/InlineResponse2005.md)
  - [InlineResponse20050](docs/Model/InlineResponse20050.md)
  - [InlineResponse20051](docs/Model/InlineResponse20051.md)

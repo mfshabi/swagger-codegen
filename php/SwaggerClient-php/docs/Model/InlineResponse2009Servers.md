@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**mediaservers** | [**\Swagger\Client\Model\InlineResponse2004ServersMediaservers**](InlineResponse2004ServersMediaservers.md) |  | [optional] 
+**mediaservers** | [**\Swagger\Client\Model\InlineResponse2004ServersWowzaservers**](InlineResponse2004ServersWowzaservers.md) |  | [optional] 
 **ffmpegservers** | [**\Swagger\Client\Model\FfmpegserversList[]**](FfmpegserversList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

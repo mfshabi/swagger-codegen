@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse2004Servers
+ * InlineResponse2004ServersWowzaservers
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse2004Servers Class Doc Comment
+ * InlineResponse2004ServersWowzaservers Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse2004Servers implements ModelInterface, ArrayAccess
+class InlineResponse2004ServersWowzaservers implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_4_servers';
+    protected static $swaggerModelName = 'inline_response_200_4_servers_wowzaservers';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,8 +56,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'mediaservers' => '\Swagger\Client\Model\InlineResponse2004ServersMediaservers',
-'wowzaservers' => '\Swagger\Client\Model\InlineResponse2004ServersWowzaservers'    ];
+        'string' => '\Swagger\Client\Model\ServersList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'mediaservers' => null,
-'wowzaservers' => null    ];
+        'string' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'mediaservers' => 'mediaservers',
-'wowzaservers' => 'wowzaservers'    ];
+        'string' => 'string'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'mediaservers' => 'setMediaservers',
-'wowzaservers' => 'setWowzaservers'    ];
+        'string' => 'setString'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'mediaservers' => 'getMediaservers',
-'wowzaservers' => 'getWowzaservers'    ];
+        'string' => 'getString'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -174,8 +169,7 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['mediaservers'] = isset($data['mediaservers']) ? $data['mediaservers'] : null;
-        $this->container['wowzaservers'] = isset($data['wowzaservers']) ? $data['wowzaservers'] : null;
+        $this->container['string'] = isset($data['string']) ? $data['string'] : null;
     }
 
     /**
@@ -203,49 +197,25 @@ class InlineResponse2004Servers implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets mediaservers
+     * Gets string
      *
-     * @return \Swagger\Client\Model\InlineResponse2004ServersMediaservers
+     * @return \Swagger\Client\Model\ServersList
      */
-    public function getMediaservers()
+    public function getString()
     {
-        return $this->container['mediaservers'];
+        return $this->container['string'];
     }
 
     /**
-     * Sets mediaservers
+     * Sets string
      *
-     * @param \Swagger\Client\Model\InlineResponse2004ServersMediaservers $mediaservers mediaservers
+     * @param \Swagger\Client\Model\ServersList $string string
      *
      * @return $this
      */
-    public function setMediaservers($mediaservers)
+    public function setString($string)
     {
-        $this->container['mediaservers'] = $mediaservers;
-
-        return $this;
-    }
-
-    /**
-     * Gets wowzaservers
-     *
-     * @return \Swagger\Client\Model\InlineResponse2004ServersWowzaservers
-     */
-    public function getWowzaservers()
-    {
-        return $this->container['wowzaservers'];
-    }
-
-    /**
-     * Sets wowzaservers
-     *
-     * @param \Swagger\Client\Model\InlineResponse2004ServersWowzaservers $wowzaservers wowzaservers
-     *
-     * @return $this
-     */
-    public function setWowzaservers($wowzaservers)
-    {
-        $this->container['wowzaservers'] = $wowzaservers;
+        $this->container['string'] = $string;
 
         return $this;
     }

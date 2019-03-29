@@ -1,9 +1,9 @@
-# InlineResponse2004ServersMediaservers
+# InlineResponse2004ServersWowzaservers
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**_01** | [**\Swagger\Client\Model\ServersList**](ServersList.md) |  | [optional] 
+**string** | [**\Swagger\Client\Model\ServersList**](ServersList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
