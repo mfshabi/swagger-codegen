@@ -56,7 +56,7 @@ class FfmpegserversList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'code' => 'int',
+        'code' => 'string',
 'group' => 'string',
 'name' => 'string'    ];
 
@@ -66,7 +66,7 @@ class FfmpegserversList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'code' => 'int32',
+        'code' => null,
 'group' => null,
 'name' => null    ];
 
@@ -211,7 +211,7 @@ class FfmpegserversList implements ModelInterface, ArrayAccess
     /**
      * Gets code
      *
-     * @return int
+     * @return string
      */
     public function getCode()
     {
@@ -221,7 +221,7 @@ class FfmpegserversList implements ModelInterface, ArrayAccess
     /**
      * Sets code
      *
-     * @param int $code code
+     * @param string $code code
      *
      * @return $this
      */
