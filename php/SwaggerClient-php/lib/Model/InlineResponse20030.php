@@ -57,7 +57,7 @@ class InlineResponse20030 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'result' => 'string',
-'stats' => ''    ];
+'stats' => '\Swagger\Client\Model\InlineResponse20030Stats'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class InlineResponse20030 implements ModelInterface, ArrayAccess
     /**
      * Gets stats
      *
-     * @return 
+     * @return \Swagger\Client\Model\InlineResponse20030Stats
      */
     public function getStats()
     {
@@ -239,7 +239,7 @@ class InlineResponse20030 implements ModelInterface, ArrayAccess
     /**
      * Sets stats
      *
-     * @param  $stats stats
+     * @param \Swagger\Client\Model\InlineResponse20030Stats $stats stats
      *
      * @return $this
      */

@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20055
+ * InlineResponse20056
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20055 Class Doc Comment
+ * InlineResponse20056 Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20055 implements ModelInterface, ArrayAccess
+class InlineResponse20056 implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_55';
+    protected static $swaggerModelName = 'inline_response_200_56';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -57,7 +57,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'result' => 'string',
-'message' => 'string',
 'cert' => '\Swagger\Client\Model\CertList'    ];
 
     /**
@@ -67,7 +66,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'result' => null,
-'message' => null,
 'cert' => null    ];
 
     /**
@@ -98,7 +96,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'result' => 'result',
-'message' => 'message',
 'cert' => 'cert'    ];
 
     /**
@@ -108,7 +105,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'result' => 'setResult',
-'message' => 'setMessage',
 'cert' => 'setCert'    ];
 
     /**
@@ -118,7 +114,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'result' => 'getResult',
-'message' => 'getMessage',
 'cert' => 'getCert'    ];
 
     /**
@@ -180,7 +175,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['message'] = isset($data['message']) ? $data['message'] : null;
         $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
     }
 
@@ -228,30 +222,6 @@ class InlineResponse20055 implements ModelInterface, ArrayAccess
     public function setResult($result)
     {
         $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets message
-     *
-     * @return string
-     */
-    public function getMessage()
-    {
-        return $this->container['message'];
-    }
-
-    /**
-     * Sets message
-     *
-     * @param string $message message
-     *
-     * @return $this
-     */
-    public function setMessage($message)
-    {
-        $this->container['message'] = $message;
 
         return $this;
     }
