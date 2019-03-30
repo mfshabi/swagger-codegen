@@ -1923,7 +1923,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20023
+     * @return \Swagger\Client\Model\InlineResponse20050
      */
     public function reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
@@ -1944,11 +1944,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20023, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullTopfilesWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20023';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZonePullTopfilesRequest($x_api_key, $zoneid, $start_date, $end_date, $type);
 
         try {
@@ -2000,7 +2000,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20023',
+                        '\Swagger\Client\Model\InlineResponse20050',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2050,7 +2050,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullTopfilesAsyncWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20023';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZonePullTopfilesRequest($x_api_key, $zoneid, $start_date, $end_date, $type);
 
         return $this->client
