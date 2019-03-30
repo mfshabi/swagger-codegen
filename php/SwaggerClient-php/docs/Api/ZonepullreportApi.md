@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZonePullVisitors**](ZonepullreportApi.md#reportsByZonePullVisitors) | **POST** /zones/reports/http/pull/{zoneid}/on/visitors | Reports by zone pull visitors
 
 # **reportsByZonePullBrowsers**
-> \Swagger\Client\Model\InlineResponse20054 reportsByZonePullBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20028 reportsByZonePullBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone pull browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
 
 ### Authorization
 
@@ -131,7 +131,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullCountry**
-> \Swagger\Client\Model\InlineResponse20053 reportsByZonePullCountry($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20027 reportsByZonePullCountry($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone pull country
 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
+[**\Swagger\Client\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 
@@ -245,7 +245,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullStatuscodes**
-> \Swagger\Client\Model\InlineResponse20052 reportsByZonePullStatuscodes($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20026 reportsByZonePullStatuscodes($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone pull statuscodes
 
@@ -288,7 +288,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
+[**\Swagger\Client\Model\InlineResponse20026**](../Model/InlineResponse20026.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullTopfiles**
-> \Swagger\Client\Model\InlineResponse20050 reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
+> \Swagger\Client\Model\InlineResponse20023 reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
 
 Reports by zone pull topfiles
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20023**](../Model/InlineResponse20023.md)
 
 ### Authorization
 
@@ -414,7 +414,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullTopreferrers**
-> \Swagger\Client\Model\InlineResponse20051 reportsByZonePullTopreferrers($x_api_key, $zoneid, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20025 reportsByZonePullTopreferrers($x_api_key, $zoneid, $start_date, $end_date)
 
 Reports by zone pull topreferrers
 
@@ -455,7 +455,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\Swagger\Client\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
 
 ### Authorization
 
