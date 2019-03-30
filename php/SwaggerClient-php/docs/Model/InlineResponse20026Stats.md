@@ -1,10 +1,9 @@
-# InlineResponse20026
+# InlineResponse20026Stats
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | **string** |  | [optional] 
-**stats** | [**\Swagger\Client\Model\InlineResponse20026Stats**](InlineResponse20026Stats.md) |  | [optional] 
+**status_codes** | [**\Swagger\Client\Model\StatusCodesList**](StatusCodesList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -100,7 +100,7 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20055
+     * @return \Swagger\Client\Model\InlineResponse20056
      */
     public function createSsl($x_api_key, $_method = null, $name = null, $crt = null, $key = null, $cabundle = null)
     {
@@ -122,11 +122,11 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
      */
     public function createSslWithHttpInfo($x_api_key, $_method = null, $name = null, $crt = null, $key = null, $cabundle = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->createSslRequest($x_api_key, $_method, $name, $crt, $key, $cabundle);
 
         try {
@@ -178,7 +178,7 @@ class AccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20055',
+                        '\Swagger\Client\Model\InlineResponse20056',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -230,7 +230,7 @@ class AccountApi
      */
     public function createSslAsyncWithHttpInfo($x_api_key, $_method = null, $name = null, $crt = null, $key = null, $cabundle = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->createSslRequest($x_api_key, $_method, $name, $crt, $key, $cabundle);
 
         return $this->client
@@ -399,7 +399,7 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20056
+     * @return \Swagger\Client\Model\InlineResponse20057
      */
     public function sslCertificate($x_api_key, $sslcertid)
     {
@@ -417,11 +417,11 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
      */
     public function sslCertificateWithHttpInfo($x_api_key, $sslcertid)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->sslCertificateRequest($x_api_key, $sslcertid);
 
         try {
@@ -473,7 +473,7 @@ class AccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20056',
+                        '\Swagger\Client\Model\InlineResponse20057',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -517,7 +517,7 @@ class AccountApi
      */
     public function sslCertificateAsyncWithHttpInfo($x_api_key, $sslcertid)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->sslCertificateRequest($x_api_key, $sslcertid);
 
         return $this->client
@@ -675,7 +675,7 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20054
+     * @return \Swagger\Client\Model\InlineResponse20055
      */
     public function sslCertificates($x_api_key)
     {
@@ -692,11 +692,11 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
      */
     public function sslCertificatesWithHttpInfo($x_api_key)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->sslCertificatesRequest($x_api_key);
 
         try {
@@ -748,7 +748,7 @@ class AccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20054',
+                        '\Swagger\Client\Model\InlineResponse20055',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -790,7 +790,7 @@ class AccountApi
      */
     public function sslCertificatesAsyncWithHttpInfo($x_api_key)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->sslCertificatesRequest($x_api_key);
 
         return $this->client
@@ -934,7 +934,7 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20055
+     * @return \Swagger\Client\Model\InlineResponse20056
      */
     public function updateSslCertificate($x_api_key, $sslcertid)
     {
@@ -952,11 +952,11 @@ class AccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSslCertificateWithHttpInfo($x_api_key, $sslcertid)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->updateSslCertificateRequest($x_api_key, $sslcertid);
 
         try {
@@ -1008,7 +1008,7 @@ class AccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20055',
+                        '\Swagger\Client\Model\InlineResponse20056',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1052,7 +1052,7 @@ class AccountApi
      */
     public function updateSslCertificateAsyncWithHttpInfo($x_api_key, $sslcertid)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->updateSslCertificateRequest($x_api_key, $sslcertid);
 
         return $this->client

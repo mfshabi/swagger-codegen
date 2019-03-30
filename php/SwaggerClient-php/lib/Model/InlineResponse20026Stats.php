@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20054
+ * InlineResponse20026Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20054 Class Doc Comment
+ * InlineResponse20026Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20054 implements ModelInterface, ArrayAccess
+class InlineResponse20026Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_54';
+    protected static $swaggerModelName = 'inline_response_200_26_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,8 +56,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'result' => 'string',
-'stats' => ''    ];
+        'status_codes' => '\Swagger\Client\Model\StatusCodesList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'result' => null,
-'stats' => null    ];
+        'status_codes' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'result' => 'result',
-'stats' => 'stats'    ];
+        'status_codes' => 'status_codes'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'result' => 'setResult',
-'stats' => 'setStats'    ];
+        'status_codes' => 'setStatusCodes'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'result' => 'getResult',
-'stats' => 'getStats'    ];
+        'status_codes' => 'getStatusCodes'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -174,8 +169,7 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['stats'] = isset($data['stats']) ? $data['stats'] : null;
+        $this->container['status_codes'] = isset($data['status_codes']) ? $data['status_codes'] : null;
     }
 
     /**
@@ -203,49 +197,25 @@ class InlineResponse20054 implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets result
+     * Gets status_codes
      *
-     * @return string
+     * @return \Swagger\Client\Model\StatusCodesList
      */
-    public function getResult()
+    public function getStatusCodes()
     {
-        return $this->container['result'];
+        return $this->container['status_codes'];
     }
 
     /**
-     * Sets result
+     * Sets status_codes
      *
-     * @param string $result result
+     * @param \Swagger\Client\Model\StatusCodesList $status_codes status_codes
      *
      * @return $this
      */
-    public function setResult($result)
+    public function setStatusCodes($status_codes)
     {
-        $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets stats
-     *
-     * @return 
-     */
-    public function getStats()
-    {
-        return $this->container['stats'];
-    }
-
-    /**
-     * Sets stats
-     *
-     * @param  $stats stats
-     *
-     * @return $this
-     */
-    public function setStats($stats)
-    {
-        $this->container['stats'] = $stats;
+        $this->container['status_codes'] = $status_codes;
 
         return $this;
     }
