@@ -57,8 +57,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'result' => 'string',
-'message' => 'string',
-'cert' => '\Swagger\Client\Model\CertList'    ];
+'certs' => '\Swagger\Client\Model\CertList[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -67,8 +66,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'result' => null,
-'message' => null,
-'cert' => null    ];
+'certs' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -98,8 +96,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'result' => 'result',
-'message' => 'message',
-'cert' => 'cert'    ];
+'certs' => 'certs'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -108,8 +105,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'result' => 'setResult',
-'message' => 'setMessage',
-'cert' => 'setCert'    ];
+'certs' => 'setCerts'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -118,8 +114,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'result' => 'getResult',
-'message' => 'getMessage',
-'cert' => 'getCert'    ];
+'certs' => 'getCerts'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -180,8 +175,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['message'] = isset($data['message']) ? $data['message'] : null;
-        $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
+        $this->container['certs'] = isset($data['certs']) ? $data['certs'] : null;
     }
 
     /**
@@ -233,49 +227,25 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets message
+     * Gets certs
      *
-     * @return string
+     * @return \Swagger\Client\Model\CertList[]
      */
-    public function getMessage()
+    public function getCerts()
     {
-        return $this->container['message'];
+        return $this->container['certs'];
     }
 
     /**
-     * Sets message
+     * Sets certs
      *
-     * @param string $message message
+     * @param \Swagger\Client\Model\CertList[] $certs certs
      *
      * @return $this
      */
-    public function setMessage($message)
+    public function setCerts($certs)
     {
-        $this->container['message'] = $message;
-
-        return $this;
-    }
-
-    /**
-     * Gets cert
-     *
-     * @return \Swagger\Client\Model\CertList
-     */
-    public function getCert()
-    {
-        return $this->container['cert'];
-    }
-
-    /**
-     * Sets cert
-     *
-     * @param \Swagger\Client\Model\CertList $cert cert
-     *
-     * @return $this
-     */
-    public function setCert($cert)
-    {
-        $this->container['cert'] = $cert;
+        $this->container['certs'] = $certs;
 
         return $this;
     }

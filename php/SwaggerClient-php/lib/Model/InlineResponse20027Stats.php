@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20051
+ * InlineResponse20027Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20051 Class Doc Comment
+ * InlineResponse20027Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20051 implements ModelInterface, ArrayAccess
+class InlineResponse20027Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_51';
+    protected static $swaggerModelName = 'inline_response_200_27_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,8 +56,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'result' => 'string',
-'stats' => ''    ];
+        'countries' => '\Swagger\Client\Model\CountriesList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'result' => null,
-'stats' => null    ];
+        'countries' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'result' => 'result',
-'stats' => 'stats'    ];
+        'countries' => 'countries'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'result' => 'setResult',
-'stats' => 'setStats'    ];
+        'countries' => 'setCountries'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'result' => 'getResult',
-'stats' => 'getStats'    ];
+        'countries' => 'getCountries'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -174,8 +169,7 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['stats'] = isset($data['stats']) ? $data['stats'] : null;
+        $this->container['countries'] = isset($data['countries']) ? $data['countries'] : null;
     }
 
     /**
@@ -203,49 +197,25 @@ class InlineResponse20051 implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets result
+     * Gets countries
      *
-     * @return string
+     * @return \Swagger\Client\Model\CountriesList
      */
-    public function getResult()
+    public function getCountries()
     {
-        return $this->container['result'];
+        return $this->container['countries'];
     }
 
     /**
-     * Sets result
+     * Sets countries
      *
-     * @param string $result result
+     * @param \Swagger\Client\Model\CountriesList $countries countries
      *
      * @return $this
      */
-    public function setResult($result)
+    public function setCountries($countries)
     {
-        $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets stats
-     *
-     * @return 
-     */
-    public function getStats()
-    {
-        return $this->container['stats'];
-    }
-
-    /**
-     * Sets stats
-     *
-     * @param  $stats stats
-     *
-     * @return $this
-     */
-    public function setStats($stats)
-    {
-        $this->container['stats'] = $stats;
+        $this->container['countries'] = $countries;
 
         return $this;
     }

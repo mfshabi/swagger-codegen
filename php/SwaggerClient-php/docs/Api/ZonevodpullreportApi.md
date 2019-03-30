@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZoneVodPullVisitors**](ZonevodpullreportApi.md#reportsByZoneVodPullVisitors) | **POST** /zones/reports/vod/pull/{zoneid}/on/visitors | Reports by zone vod pull visitors
 
 # **reportsByZoneVodPullBrowsers**
-> \Swagger\Client\Model\InlineResponse20049 reportsByZoneVodPullBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20050 reportsByZoneVodPullBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone vod pull browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
+[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
 
 ### Authorization
 
@@ -131,7 +131,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZoneVodPullCountries**
-> \Swagger\Client\Model\InlineResponse20027 reportsByZoneVodPullCountries($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20049 reportsByZoneVodPullCountries($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone vod pull countries
 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZoneVodPullTopfiles**
-> \Swagger\Client\Model\InlineResponse20050 reportsByZoneVodPullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
+> \Swagger\Client\Model\InlineResponse20051 reportsByZoneVodPullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
 
 Reports by zone vod pull topfiles
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
