@@ -188,7 +188,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullOs**
-> \Swagger\Client\Model\InlineResponse20055 reportsByZonePullOs($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20029 reportsByZonePullOs($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone pull os
 
@@ -231,7 +231,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\Swagger\Client\Model\InlineResponse20029**](../Model/InlineResponse20029.md)
 
 ### Authorization
 
@@ -469,7 +469,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullVisitors**
-> \Swagger\Client\Model\InlineResponse20056 reportsByZonePullVisitors($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20030 reportsByZonePullVisitors($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone pull visitors
 
@@ -512,7 +512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20056**](../Model/InlineResponse20056.md)
+[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 
