@@ -56,7 +56,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'top_fifty_referers_table' => '\Swagger\Client\Model\TopFiftyFilesTableList[]'    ];
+        'top_fifty_files_table' => '\Swagger\Client\Model\TopFiftyFilesTableList[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -64,7 +64,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'top_fifty_referers_table' => null    ];
+        'top_fifty_files_table' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -93,7 +93,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'top_fifty_referers_table' => 'top_fifty_referers_table'    ];
+        'top_fifty_files_table' => 'top_fifty_files_table'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -101,7 +101,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'top_fifty_referers_table' => 'setTopFiftyReferersTable'    ];
+        'top_fifty_files_table' => 'setTopFiftyFilesTable'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -109,7 +109,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'top_fifty_referers_table' => 'getTopFiftyReferersTable'    ];
+        'top_fifty_files_table' => 'getTopFiftyFilesTable'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -169,7 +169,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['top_fifty_referers_table'] = isset($data['top_fifty_referers_table']) ? $data['top_fifty_referers_table'] : null;
+        $this->container['top_fifty_files_table'] = isset($data['top_fifty_files_table']) ? $data['top_fifty_files_table'] : null;
     }
 
     /**
@@ -197,25 +197,25 @@ class TopFilesList implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets top_fifty_referers_table
+     * Gets top_fifty_files_table
      *
      * @return \Swagger\Client\Model\TopFiftyFilesTableList[]
      */
-    public function getTopFiftyReferersTable()
+    public function getTopFiftyFilesTable()
     {
-        return $this->container['top_fifty_referers_table'];
+        return $this->container['top_fifty_files_table'];
     }
 
     /**
-     * Sets top_fifty_referers_table
+     * Sets top_fifty_files_table
      *
-     * @param \Swagger\Client\Model\TopFiftyFilesTableList[] $top_fifty_referers_table top_fifty_referers_table
+     * @param \Swagger\Client\Model\TopFiftyFilesTableList[] $top_fifty_files_table top_fifty_files_table
      *
      * @return $this
      */
-    public function setTopFiftyReferersTable($top_fifty_referers_table)
+    public function setTopFiftyFilesTable($top_fifty_files_table)
     {
-        $this->container['top_fifty_referers_table'] = $top_fifty_referers_table;
+        $this->container['top_fifty_files_table'] = $top_fifty_files_table;
 
         return $this;
     }

@@ -72,7 +72,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullCache**
-> \Swagger\Client\Model\InlineResponse20049 reportsByZonePullCache($x_api_key, $zoneid, $frequency, $filter_type, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20022 reportsByZonePullCache($x_api_key, $zoneid, $frequency, $filter_type, $start_date, $end_date)
 
 Reports by zone pull cache
 
@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
+[**\Swagger\Client\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePullTopfiles**
-> \Swagger\Client\Model\InlineResponse20050 reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
+> \Swagger\Client\Model\InlineResponse20023 reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
 
 Reports by zone pull topfiles
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20023**](../Model/InlineResponse20023.md)
 
 ### Authorization
 
