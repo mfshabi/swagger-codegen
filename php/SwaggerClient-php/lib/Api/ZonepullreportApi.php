@@ -99,7 +99,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20052
+     * @return \Swagger\Client\Model\InlineResponse20054
      */
     public function reportsByZonePullBrowsers($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -120,11 +120,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullBrowsersWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->reportsByZonePullBrowsersRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -176,7 +176,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20052',
+                        '\Swagger\Client\Model\InlineResponse20054',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -226,7 +226,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullBrowsersAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->reportsByZonePullBrowsersRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -404,7 +404,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20022
+     * @return \Swagger\Client\Model\InlineResponse20049
      */
     public function reportsByZonePullCache($x_api_key, $zoneid, $frequency = null, $filter_type = null, $start_date = null, $end_date = null)
     {
@@ -426,11 +426,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20022, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20049, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullCacheWithHttpInfo($x_api_key, $zoneid, $frequency = null, $filter_type = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20022';
+        $returnType = '\Swagger\Client\Model\InlineResponse20049';
         $request = $this->reportsByZonePullCacheRequest($x_api_key, $zoneid, $frequency, $filter_type, $start_date, $end_date);
 
         try {
@@ -482,7 +482,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20022',
+                        '\Swagger\Client\Model\InlineResponse20049',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -534,7 +534,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullCacheAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $filter_type = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20022';
+        $returnType = '\Swagger\Client\Model\InlineResponse20049';
         $request = $this->reportsByZonePullCacheRequest($x_api_key, $zoneid, $frequency, $filter_type, $start_date, $end_date);
 
         return $this->client
@@ -716,7 +716,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20051
+     * @return \Swagger\Client\Model\InlineResponse20053
      */
     public function reportsByZonePullCountry($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -737,11 +737,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullCountryWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20053';
         $request = $this->reportsByZonePullCountryRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -793,7 +793,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20051',
+                        '\Swagger\Client\Model\InlineResponse20053',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -843,7 +843,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullCountryAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20053';
         $request = $this->reportsByZonePullCountryRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -1020,7 +1020,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20053
+     * @return \Swagger\Client\Model\InlineResponse20055
      */
     public function reportsByZonePullOs($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -1041,11 +1041,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullOsWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->reportsByZonePullOsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -1097,7 +1097,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20053',
+                        '\Swagger\Client\Model\InlineResponse20055',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1147,7 +1147,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullOsAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->reportsByZonePullOsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -1324,7 +1324,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20050
+     * @return \Swagger\Client\Model\InlineResponse20052
      */
     public function reportsByZonePullStatuscodes($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -1345,11 +1345,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullStatuscodesWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->reportsByZonePullStatuscodesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -1401,7 +1401,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20050',
+                        '\Swagger\Client\Model\InlineResponse20052',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1451,7 +1451,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullStatuscodesAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->reportsByZonePullStatuscodesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -1923,7 +1923,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20023
+     * @return \Swagger\Client\Model\InlineResponse20050
      */
     public function reportsByZonePullTopfiles($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
@@ -1944,11 +1944,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20023, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullTopfilesWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20023';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZonePullTopfilesRequest($x_api_key, $zoneid, $start_date, $end_date, $type);
 
         try {
@@ -2000,7 +2000,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20023',
+                        '\Swagger\Client\Model\InlineResponse20050',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2050,7 +2050,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullTopfilesAsyncWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null, $type = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20023';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZonePullTopfilesRequest($x_api_key, $zoneid, $start_date, $end_date, $type);
 
         return $this->client
@@ -2226,7 +2226,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20049
+     * @return \Swagger\Client\Model\InlineResponse20051
      */
     public function reportsByZonePullTopreferrers($x_api_key, $zoneid, $start_date = null, $end_date = null)
     {
@@ -2246,11 +2246,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20049, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullTopreferrersWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20049';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->reportsByZonePullTopreferrersRequest($x_api_key, $zoneid, $start_date, $end_date);
 
         try {
@@ -2302,7 +2302,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20049',
+                        '\Swagger\Client\Model\InlineResponse20051',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2350,7 +2350,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullTopreferrersAsyncWithHttpInfo($x_api_key, $zoneid, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20049';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->reportsByZonePullTopreferrersRequest($x_api_key, $zoneid, $start_date, $end_date);
 
         return $this->client
@@ -2522,7 +2522,7 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20054
+     * @return \Swagger\Client\Model\InlineResponse20056
      */
     public function reportsByZonePullVisitors($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -2543,11 +2543,11 @@ class ZonepullreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZonePullVisitorsWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->reportsByZonePullVisitorsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -2599,7 +2599,7 @@ class ZonepullreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20054',
+                        '\Swagger\Client\Model\InlineResponse20056',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2649,7 +2649,7 @@ class ZonepullreportApi
      */
     public function reportsByZonePullVisitorsAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->reportsByZonePullVisitorsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client

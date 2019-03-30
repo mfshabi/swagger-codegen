@@ -1,6 +1,6 @@
 <?php
 /**
- * TopFilesList
+ * InlineResponse20060
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * TopFilesList Class Doc Comment
+ * InlineResponse20060 Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class TopFilesList implements ModelInterface, ArrayAccess
+class InlineResponse20060 implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'top_filesList';
+    protected static $swaggerModelName = 'inline_response_200_60';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,7 +56,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'top_fifty_referers_table' => '\Swagger\Client\Model\TopFiftyFilesTableList[]'    ];
+        'result' => 'string',
+'cert' => '\Swagger\Client\Model\CertList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -64,7 +65,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'top_fifty_referers_table' => null    ];
+        'result' => null,
+'cert' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -93,7 +95,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'top_fifty_referers_table' => 'top_fifty_referers_table'    ];
+        'result' => 'result',
+'cert' => 'cert'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -101,7 +104,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'top_fifty_referers_table' => 'setTopFiftyReferersTable'    ];
+        'result' => 'setResult',
+'cert' => 'setCert'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -109,7 +113,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'top_fifty_referers_table' => 'getTopFiftyReferersTable'    ];
+        'result' => 'getResult',
+'cert' => 'getCert'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -169,7 +174,8 @@ class TopFilesList implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['top_fifty_referers_table'] = isset($data['top_fifty_referers_table']) ? $data['top_fifty_referers_table'] : null;
+        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
+        $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
     }
 
     /**
@@ -197,25 +203,49 @@ class TopFilesList implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets top_fifty_referers_table
+     * Gets result
      *
-     * @return \Swagger\Client\Model\TopFiftyFilesTableList[]
+     * @return string
      */
-    public function getTopFiftyReferersTable()
+    public function getResult()
     {
-        return $this->container['top_fifty_referers_table'];
+        return $this->container['result'];
     }
 
     /**
-     * Sets top_fifty_referers_table
+     * Sets result
      *
-     * @param \Swagger\Client\Model\TopFiftyFilesTableList[] $top_fifty_referers_table top_fifty_referers_table
+     * @param string $result result
      *
      * @return $this
      */
-    public function setTopFiftyReferersTable($top_fifty_referers_table)
+    public function setResult($result)
     {
-        $this->container['top_fifty_referers_table'] = $top_fifty_referers_table;
+        $this->container['result'] = $result;
+
+        return $this;
+    }
+
+    /**
+     * Gets cert
+     *
+     * @return \Swagger\Client\Model\CertList
+     */
+    public function getCert()
+    {
+        return $this->container['cert'];
+    }
+
+    /**
+     * Sets cert
+     *
+     * @param \Swagger\Client\Model\CertList $cert cert
+     *
+     * @return $this
+     */
+    public function setCert($cert)
+    {
+        $this->container['cert'] = $cert;
 
         return $this;
     }

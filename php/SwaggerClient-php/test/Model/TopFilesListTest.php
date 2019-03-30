@@ -76,9 +76,9 @@ class TopFilesListTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "top_fifty_files_table"
+     * Test attribute "top_fifty_referers_table"
      */
-    public function testPropertyTopFiftyFilesTable()
+    public function testPropertyTopFiftyReferersTable()
     {
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20056Test
+ * InlineResponse20023StatsTest
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Swagger\Client;
 
 /**
- * InlineResponse20056Test Class Doc Comment
+ * InlineResponse20023StatsTest Class Doc Comment
  *
  * @category    Class
- * @description InlineResponse20056
+ * @description InlineResponse20023Stats
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20056Test extends \PHPUnit_Framework_TestCase
+class InlineResponse20023StatsTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,23 +69,16 @@ class InlineResponse20056Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "InlineResponse20056"
+     * Test "InlineResponse20023Stats"
      */
-    public function testInlineResponse20056()
+    public function testInlineResponse20023Stats()
     {
     }
 
     /**
-     * Test attribute "result"
+     * Test attribute "top_files"
      */
-    public function testPropertyResult()
-    {
-    }
-
-    /**
-     * Test attribute "stats"
-     */
-    public function testPropertyStats()
+    public function testPropertyTopFiles()
     {
     }
 }

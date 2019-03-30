@@ -1,10 +1,9 @@
-# InlineResponse20022
+# InlineResponse20023Stats
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | **string** |  | [optional] 
-**stats** | [**\Swagger\Client\Model\InlineResponse20022Stats**](InlineResponse20022Stats.md) |  | [optional] 
+**top_files** | [**\Swagger\Client\Model\TopFilesList**](TopFilesList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

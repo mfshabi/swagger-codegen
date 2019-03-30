@@ -1,6 +1,6 @@
 <?php
 /**
- * TopFilesList
+ * InlineResponse20022Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * TopFilesList Class Doc Comment
+ * InlineResponse20022Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class TopFilesList implements ModelInterface, ArrayAccess
+class InlineResponse20022Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'top_filesList';
+    protected static $swaggerModelName = 'inline_response_200_22_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,7 +56,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'top_fifty_referers_table' => '\Swagger\Client\Model\TopFiftyFilesTableList[]'    ];
+        'cache_statistics' => '\Swagger\Client\Model\CacheStatisticList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -64,7 +64,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'top_fifty_referers_table' => null    ];
+        'cache_statistics' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -93,7 +93,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'top_fifty_referers_table' => 'top_fifty_referers_table'    ];
+        'cache_statistics' => 'cache_statistics'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -101,7 +101,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'top_fifty_referers_table' => 'setTopFiftyReferersTable'    ];
+        'cache_statistics' => 'setCacheStatistics'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -109,7 +109,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'top_fifty_referers_table' => 'getTopFiftyReferersTable'    ];
+        'cache_statistics' => 'getCacheStatistics'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -169,7 +169,7 @@ class TopFilesList implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['top_fifty_referers_table'] = isset($data['top_fifty_referers_table']) ? $data['top_fifty_referers_table'] : null;
+        $this->container['cache_statistics'] = isset($data['cache_statistics']) ? $data['cache_statistics'] : null;
     }
 
     /**
@@ -197,25 +197,25 @@ class TopFilesList implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets top_fifty_referers_table
+     * Gets cache_statistics
      *
-     * @return \Swagger\Client\Model\TopFiftyFilesTableList[]
+     * @return \Swagger\Client\Model\CacheStatisticList
      */
-    public function getTopFiftyReferersTable()
+    public function getCacheStatistics()
     {
-        return $this->container['top_fifty_referers_table'];
+        return $this->container['cache_statistics'];
     }
 
     /**
-     * Sets top_fifty_referers_table
+     * Sets cache_statistics
      *
-     * @param \Swagger\Client\Model\TopFiftyFilesTableList[] $top_fifty_referers_table top_fifty_referers_table
+     * @param \Swagger\Client\Model\CacheStatisticList $cache_statistics cache_statistics
      *
      * @return $this
      */
-    public function setTopFiftyReferersTable($top_fifty_referers_table)
+    public function setCacheStatistics($cache_statistics)
     {
-        $this->container['top_fifty_referers_table'] = $top_fifty_referers_table;
+        $this->container['cache_statistics'] = $cache_statistics;
 
         return $this;
     }

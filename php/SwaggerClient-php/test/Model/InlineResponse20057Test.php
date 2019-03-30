@@ -83,16 +83,9 @@ class InlineResponse20057Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "message"
+     * Test attribute "stats"
      */
-    public function testPropertyMessage()
-    {
-    }
-
-    /**
-     * Test attribute "cert"
-     */
-    public function testPropertyCert()
+    public function testPropertyStats()
     {
     }
 }
