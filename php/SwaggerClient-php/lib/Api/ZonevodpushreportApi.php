@@ -99,7 +99,7 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20052
+     * @return \Swagger\Client\Model\InlineResponse20028
      */
     public function reportsByZoneVodPushBrowsers($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -120,11 +120,11 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20028, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZoneVodPushBrowsersWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20028';
         $request = $this->reportsByZoneVodPushBrowsersRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -176,7 +176,7 @@ class ZonevodpushreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20052',
+                        '\Swagger\Client\Model\InlineResponse20028',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -226,7 +226,7 @@ class ZonevodpushreportApi
      */
     public function reportsByZoneVodPushBrowsersAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20028';
         $request = $this->reportsByZoneVodPushBrowsersRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -716,7 +716,7 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20051
+     * @return \Swagger\Client\Model\InlineResponse20050
      */
     public function reportsByZoneVodPushCountries($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -737,11 +737,11 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZoneVodPushCountriesWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZoneVodPushCountriesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -793,7 +793,7 @@ class ZonevodpushreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20051',
+                        '\Swagger\Client\Model\InlineResponse20050',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -843,7 +843,7 @@ class ZonevodpushreportApi
      */
     public function reportsByZoneVodPushCountriesAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->reportsByZoneVodPushCountriesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -1020,7 +1020,7 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20053
+     * @return \Swagger\Client\Model\InlineResponse20051
      */
     public function reportsByZoneVodPushOs($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -1041,11 +1041,11 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZoneVodPushOsWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->reportsByZoneVodPushOsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -1097,7 +1097,7 @@ class ZonevodpushreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20053',
+                        '\Swagger\Client\Model\InlineResponse20051',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1147,7 +1147,7 @@ class ZonevodpushreportApi
      */
     public function reportsByZoneVodPushOsAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->reportsByZoneVodPushOsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -1324,7 +1324,7 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20050
+     * @return \Swagger\Client\Model\InlineResponse20026
      */
     public function reportsByZoneVodPushStatuscodes($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -1345,11 +1345,11 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20026, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZoneVodPushStatuscodesWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20026';
         $request = $this->reportsByZoneVodPushStatuscodesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -1401,7 +1401,7 @@ class ZonevodpushreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20050',
+                        '\Swagger\Client\Model\InlineResponse20026',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1451,7 +1451,7 @@ class ZonevodpushreportApi
      */
     public function reportsByZoneVodPushStatuscodesAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20026';
         $request = $this->reportsByZoneVodPushStatuscodesRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
@@ -2522,7 +2522,7 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20054
+     * @return \Swagger\Client\Model\InlineResponse20052
      */
     public function reportsByZoneVodPushVisitors($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
@@ -2543,11 +2543,11 @@ class ZonevodpushreportApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
      */
     public function reportsByZoneVodPushVisitorsWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->reportsByZoneVodPushVisitorsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         try {
@@ -2599,7 +2599,7 @@ class ZonevodpushreportApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20054',
+                        '\Swagger\Client\Model\InlineResponse20052',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2649,7 +2649,7 @@ class ZonevodpushreportApi
      */
     public function reportsByZoneVodPushVisitorsAsyncWithHttpInfo($x_api_key, $zoneid, $frequency = null, $start_date = null, $end_date = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->reportsByZoneVodPushVisitorsRequest($x_api_key, $zoneid, $frequency, $start_date, $end_date);
 
         return $this->client
