@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZonePushVisitors**](ZonepushreportApi.md#reportsByZonePushVisitors) | **POST** /zones/reports/http/push/{zoneid}/on/visitors | Reports by zone push visitors
 
 # **reportsByZonePushBrowsers**
-> \Swagger\Client\Model\InlineResponse20053 reportsByZonePushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20052 reportsByZonePushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
+[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
 
 ### Authorization
 
@@ -131,7 +131,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePushCountries**
-> \Swagger\Client\Model\InlineResponse20052 reportsByZonePushCountries($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20051 reportsByZonePushCountries($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push countries
 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -188,7 +188,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePushOs**
-> \Swagger\Client\Model\InlineResponse20054 reportsByZonePushOs($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20053 reportsByZonePushOs($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push os
 
@@ -231,7 +231,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
 
 ### Authorization
 
@@ -245,7 +245,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePushStatusCode**
-> \Swagger\Client\Model\InlineResponse20051 reportsByZonePushStatusCode($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20050 reportsByZonePushStatusCode($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push Status Codes
 
@@ -288,7 +288,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
 
 ### Authorization
 
@@ -414,7 +414,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePushTopReferrers**
-> \Swagger\Client\Model\InlineResponse20050 reportsByZonePushTopReferrers($x_api_key, $zoneid, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20025 reportsByZonePushTopReferrers($x_api_key, $zoneid, $start_date, $end_date)
 
 Reports by zone push Top Referrers
 
@@ -455,7 +455,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
 
 ### Authorization
 
@@ -469,7 +469,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZonePushVisitors**
-> \Swagger\Client\Model\InlineResponse20055 reportsByZonePushVisitors($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20054 reportsByZonePushVisitors($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push visitors
 
@@ -512,7 +512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 
