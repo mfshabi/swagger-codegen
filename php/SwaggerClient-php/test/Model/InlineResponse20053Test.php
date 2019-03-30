@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20050Test
+ * InlineResponse20053Test
  *
  * PHP version 5
  *
@@ -29,15 +29,15 @@
 namespace Swagger\Client;
 
 /**
- * InlineResponse20050Test Class Doc Comment
+ * InlineResponse20053Test Class Doc Comment
  *
  * @category    Class
- * @description InlineResponse20050
+ * @description InlineResponse20053
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20050Test extends \PHPUnit_Framework_TestCase
+class InlineResponse20053Test extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,9 +69,9 @@ class InlineResponse20050Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "InlineResponse20050"
+     * Test "InlineResponse20053"
      */
-    public function testInlineResponse20050()
+    public function testInlineResponse20053()
     {
     }
 
@@ -83,9 +83,9 @@ class InlineResponse20050Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "stats"
+     * Test attribute "cert"
      */
-    public function testPropertyStats()
+    public function testPropertyCert()
     {
     }
 }

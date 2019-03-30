@@ -10,7 +10,7 @@ Method | HTTP request | Description
 [**updateSslCertificate**](AccountApi.md#updateSslCertificate) | **POST** /account/ssl/{sslcertid} | Update
 
 # **createSsl**
-> \Swagger\Client\Model\InlineResponse20051 createSsl($x_api_key, $_method, $name, $crt, $key, $cabundle)
+> \Swagger\Client\Model\InlineResponse20052 createSsl($x_api_key, $_method, $name, $crt, $key, $cabundle)
 
 Create
 
@@ -55,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
 
 ### Authorization
 
@@ -69,7 +69,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **sslCertificate**
-> \Swagger\Client\Model\InlineResponse20052 sslCertificate($x_api_key, $sslcertid)
+> \Swagger\Client\Model\InlineResponse20053 sslCertificate($x_api_key, $sslcertid)
 
 SSL Certificate
 
@@ -106,7 +106,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
+[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
 
 ### Authorization
 
@@ -120,7 +120,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **sslCertificates**
-> \Swagger\Client\Model\InlineResponse20050 sslCertificates($x_api_key)
+> \Swagger\Client\Model\InlineResponse20051 sslCertificates($x_api_key)
 
 List SSL Certificates
 
@@ -155,7 +155,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSslCertificate**
-> \Swagger\Client\Model\InlineResponse20051 updateSslCertificate($x_api_key, $sslcertid)
+> \Swagger\Client\Model\InlineResponse20052 updateSslCertificate($x_api_key, $sslcertid)
 
 Update
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
 
 ### Authorization
 

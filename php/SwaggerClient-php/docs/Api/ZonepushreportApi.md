@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZonePushVisitors**](ZonepushreportApi.md#reportsByZonePushVisitors) | **POST** /zones/reports/http/push/{zoneid}/on/visitors | Reports by zone push visitors
 
 # **reportsByZonePushBrowsers**
-> \Swagger\Client\Model\InlineResponse20028 reportsByZonePushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20049 reportsByZonePushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone push browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 

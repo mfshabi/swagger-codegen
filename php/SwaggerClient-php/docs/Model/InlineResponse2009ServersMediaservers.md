@@ -1,10 +1,9 @@
-# InlineResponse20050
+# InlineResponse2009ServersMediaservers
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | **string** |  | [optional] 
-**stats** | [****](.md) |  | [optional] 
+**items** | [**\Swagger\Client\Model\ServersList**](ServersList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

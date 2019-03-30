@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZoneRecordVisitors**](ZonerecordreportApi.md#reportsByZoneRecordVisitors) | **POST** /zones/reports/http/record/{zoneid}/on/visitors | Reports by zone record visitors
 
 # **reportsByZoneRecordBrowsers**
-> \Swagger\Client\Model\InlineResponse20028 reportsByZoneRecordBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20049 reportsByZoneRecordBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone record browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 

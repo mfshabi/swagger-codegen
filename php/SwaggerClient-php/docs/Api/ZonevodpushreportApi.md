@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**reportsByZoneVodPushVisitors**](ZonevodpushreportApi.md#reportsByZoneVodPushVisitors) | **POST** /zones/reports/vod/push/{zoneid}/on/visitors | Reports by zone vod push visitors
 
 # **reportsByZoneVodPushBrowsers**
-> \Swagger\Client\Model\InlineResponse20028 reportsByZoneVodPushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
+> \Swagger\Client\Model\InlineResponse20049 reportsByZoneVodPushBrowsers($x_api_key, $zoneid, $frequency, $start_date, $end_date)
 
 Reports by zone vod push browsers
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **reportsByZoneVodPushTopfiles**
-> \Swagger\Client\Model\InlineResponse20049 reportsByZoneVodPushTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
+> \Swagger\Client\Model\InlineResponse20050 reportsByZoneVodPushTopfiles($x_api_key, $zoneid, $start_date, $end_date, $type)
 
 Reports by zone vod push topfiles
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
+[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
 
 ### Authorization
 

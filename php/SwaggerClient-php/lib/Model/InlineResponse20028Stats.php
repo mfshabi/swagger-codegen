@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20052
+ * InlineResponse20028Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20052 Class Doc Comment
+ * InlineResponse20028Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20052 implements ModelInterface, ArrayAccess
+class InlineResponse20028Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_52';
+    protected static $swaggerModelName = 'inline_response_200_28_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,9 +56,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'result' => 'string',
-'message' => 'string',
-'cert' => '\Swagger\Client\Model\CertList'    ];
+        'browsers' => '\Swagger\Client\Model\BrowsersList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -66,9 +64,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'result' => null,
-'message' => null,
-'cert' => null    ];
+        'browsers' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -97,9 +93,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'result' => 'result',
-'message' => 'message',
-'cert' => 'cert'    ];
+        'browsers' => 'browsers'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -107,9 +101,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'result' => 'setResult',
-'message' => 'setMessage',
-'cert' => 'setCert'    ];
+        'browsers' => 'setBrowsers'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -117,9 +109,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'result' => 'getResult',
-'message' => 'getMessage',
-'cert' => 'getCert'    ];
+        'browsers' => 'getBrowsers'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -179,9 +169,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['message'] = isset($data['message']) ? $data['message'] : null;
-        $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
+        $this->container['browsers'] = isset($data['browsers']) ? $data['browsers'] : null;
     }
 
     /**
@@ -209,73 +197,25 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets result
+     * Gets browsers
      *
-     * @return string
+     * @return \Swagger\Client\Model\BrowsersList
      */
-    public function getResult()
+    public function getBrowsers()
     {
-        return $this->container['result'];
+        return $this->container['browsers'];
     }
 
     /**
-     * Sets result
+     * Sets browsers
      *
-     * @param string $result result
+     * @param \Swagger\Client\Model\BrowsersList $browsers browsers
      *
      * @return $this
      */
-    public function setResult($result)
+    public function setBrowsers($browsers)
     {
-        $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets message
-     *
-     * @return string
-     */
-    public function getMessage()
-    {
-        return $this->container['message'];
-    }
-
-    /**
-     * Sets message
-     *
-     * @param string $message message
-     *
-     * @return $this
-     */
-    public function setMessage($message)
-    {
-        $this->container['message'] = $message;
-
-        return $this;
-    }
-
-    /**
-     * Gets cert
-     *
-     * @return \Swagger\Client\Model\CertList
-     */
-    public function getCert()
-    {
-        return $this->container['cert'];
-    }
-
-    /**
-     * Sets cert
-     *
-     * @param \Swagger\Client\Model\CertList $cert cert
-     *
-     * @return $this
-     */
-    public function setCert($cert)
-    {
-        $this->container['cert'] = $cert;
+        $this->container['browsers'] = $browsers;
 
         return $this;
     }

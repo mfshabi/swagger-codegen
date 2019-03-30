@@ -83,6 +83,13 @@ class InlineResponse20052Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Test attribute "message"
+     */
+    public function testPropertyMessage()
+    {
+    }
+
+    /**
      * Test attribute "cert"
      */
     public function testPropertyCert()
