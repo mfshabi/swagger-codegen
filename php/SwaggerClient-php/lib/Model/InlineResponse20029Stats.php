@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20052
+ * InlineResponse20029Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20052 Class Doc Comment
+ * InlineResponse20029Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20052 implements ModelInterface, ArrayAccess
+class InlineResponse20029Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_52';
+    protected static $swaggerModelName = 'inline_response_200_29_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,8 +56,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'result' => 'string',
-'stats' => ''    ];
+        'os' => '\Swagger\Client\Model\OsList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'result' => null,
-'stats' => null    ];
+        'os' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'result' => 'result',
-'stats' => 'stats'    ];
+        'os' => 'os'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'result' => 'setResult',
-'stats' => 'setStats'    ];
+        'os' => 'setOs'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'result' => 'getResult',
-'stats' => 'getStats'    ];
+        'os' => 'getOs'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -174,8 +169,7 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['stats'] = isset($data['stats']) ? $data['stats'] : null;
+        $this->container['os'] = isset($data['os']) ? $data['os'] : null;
     }
 
     /**
@@ -203,49 +197,25 @@ class InlineResponse20052 implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets result
+     * Gets os
      *
-     * @return string
+     * @return \Swagger\Client\Model\OsList
      */
-    public function getResult()
+    public function getOs()
     {
-        return $this->container['result'];
+        return $this->container['os'];
     }
 
     /**
-     * Sets result
+     * Sets os
      *
-     * @param string $result result
+     * @param \Swagger\Client\Model\OsList $os os
      *
      * @return $this
      */
-    public function setResult($result)
+    public function setOs($os)
     {
-        $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets stats
-     *
-     * @return 
-     */
-    public function getStats()
-    {
-        return $this->container['stats'];
-    }
-
-    /**
-     * Sets stats
-     *
-     * @param  $stats stats
-     *
-     * @return $this
-     */
-    public function setStats($stats)
-    {
-        $this->container['stats'] = $stats;
+        $this->container['os'] = $os;
 
         return $this;
     }
