@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20025
+ * InlineResponse20058
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20025 Class Doc Comment
+ * InlineResponse20058 Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20025 implements ModelInterface, ArrayAccess
+class InlineResponse20058 implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_25';
+    protected static $swaggerModelName = 'inline_response_200_58';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -57,7 +57,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'result' => 'string',
-'stats' => '\Swagger\Client\Model\InlineResponse20025Stats'    ];
+'cert' => '\Swagger\Client\Model\CertList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -66,7 +66,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'result' => null,
-'stats' => null    ];
+'cert' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -96,7 +96,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'result' => 'result',
-'stats' => 'stats'    ];
+'cert' => 'cert'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -105,7 +105,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'result' => 'setResult',
-'stats' => 'setStats'    ];
+'cert' => 'setCert'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -114,7 +114,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'result' => 'getResult',
-'stats' => 'getStats'    ];
+'cert' => 'getCert'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -175,7 +175,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['stats'] = isset($data['stats']) ? $data['stats'] : null;
+        $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
     }
 
     /**
@@ -227,25 +227,25 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets stats
+     * Gets cert
      *
-     * @return \Swagger\Client\Model\InlineResponse20025Stats
+     * @return \Swagger\Client\Model\CertList
      */
-    public function getStats()
+    public function getCert()
     {
-        return $this->container['stats'];
+        return $this->container['cert'];
     }
 
     /**
-     * Sets stats
+     * Sets cert
      *
-     * @param \Swagger\Client\Model\InlineResponse20025Stats $stats stats
+     * @param \Swagger\Client\Model\CertList $cert cert
      *
      * @return $this
      */
-    public function setStats($stats)
+    public function setCert($cert)
     {
-        $this->container['stats'] = $stats;
+        $this->container['cert'] = $cert;
 
         return $this;
     }

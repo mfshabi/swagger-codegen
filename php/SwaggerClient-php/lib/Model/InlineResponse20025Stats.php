@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse20025
+ * InlineResponse20025Stats
  *
  * PHP version 5
  *
@@ -32,14 +32,14 @@ use \ArrayAccess;
 use \Swagger\Client\ObjectSerializer;
 
 /**
- * InlineResponse20025 Class Doc Comment
+ * InlineResponse20025Stats Class Doc Comment
  *
  * @category Class
  * @package  Swagger\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse20025 implements ModelInterface, ArrayAccess
+class InlineResponse20025Stats implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -48,7 +48,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'inline_response_200_25';
+    protected static $swaggerModelName = 'inline_response_200_25_stats';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -56,8 +56,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'result' => 'string',
-'stats' => '\Swagger\Client\Model\InlineResponse20025Stats'    ];
+        'top_referrers' => '\Swagger\Client\Model\TopReferrersList'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'result' => null,
-'stats' => null    ];
+        'top_referrers' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'result' => 'result',
-'stats' => 'stats'    ];
+        'top_referrers' => 'top_referrers'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'result' => 'setResult',
-'stats' => 'setStats'    ];
+        'top_referrers' => 'setTopReferrers'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'result' => 'getResult',
-'stats' => 'getStats'    ];
+        'top_referrers' => 'getTopReferrers'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -174,8 +169,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
      */
     public function __construct(array $data = null)
     {
-        $this->container['result'] = isset($data['result']) ? $data['result'] : null;
-        $this->container['stats'] = isset($data['stats']) ? $data['stats'] : null;
+        $this->container['top_referrers'] = isset($data['top_referrers']) ? $data['top_referrers'] : null;
     }
 
     /**
@@ -203,49 +197,25 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
 
 
     /**
-     * Gets result
+     * Gets top_referrers
      *
-     * @return string
+     * @return \Swagger\Client\Model\TopReferrersList
      */
-    public function getResult()
+    public function getTopReferrers()
     {
-        return $this->container['result'];
+        return $this->container['top_referrers'];
     }
 
     /**
-     * Sets result
+     * Sets top_referrers
      *
-     * @param string $result result
+     * @param \Swagger\Client\Model\TopReferrersList $top_referrers top_referrers
      *
      * @return $this
      */
-    public function setResult($result)
+    public function setTopReferrers($top_referrers)
     {
-        $this->container['result'] = $result;
-
-        return $this;
-    }
-
-    /**
-     * Gets stats
-     *
-     * @return \Swagger\Client\Model\InlineResponse20025Stats
-     */
-    public function getStats()
-    {
-        return $this->container['stats'];
-    }
-
-    /**
-     * Sets stats
-     *
-     * @param \Swagger\Client\Model\InlineResponse20025Stats $stats stats
-     *
-     * @return $this
-     */
-    public function setStats($stats)
-    {
-        $this->container['stats'] = $stats;
+        $this->container['top_referrers'] = $top_referrers;
 
         return $this;
     }

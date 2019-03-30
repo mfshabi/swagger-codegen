@@ -57,6 +57,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'result' => 'string',
+'message' => 'string',
 'cert' => '\Swagger\Client\Model\CertList'    ];
 
     /**
@@ -66,6 +67,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'result' => null,
+'message' => null,
 'cert' => null    ];
 
     /**
@@ -96,6 +98,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'result' => 'result',
+'message' => 'message',
 'cert' => 'cert'    ];
 
     /**
@@ -105,6 +108,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'result' => 'setResult',
+'message' => 'setMessage',
 'cert' => 'setCert'    ];
 
     /**
@@ -114,6 +118,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'result' => 'getResult',
+'message' => 'getMessage',
 'cert' => 'getCert'    ];
 
     /**
@@ -175,6 +180,7 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['result'] = isset($data['result']) ? $data['result'] : null;
+        $this->container['message'] = isset($data['message']) ? $data['message'] : null;
         $this->container['cert'] = isset($data['cert']) ? $data['cert'] : null;
     }
 
@@ -222,6 +228,30 @@ class InlineResponse20057 implements ModelInterface, ArrayAccess
     public function setResult($result)
     {
         $this->container['result'] = $result;
+
+        return $this;
+    }
+
+    /**
+     * Gets message
+     *
+     * @return string
+     */
+    public function getMessage()
+    {
+        return $this->container['message'];
+    }
+
+    /**
+     * Sets message
+     *
+     * @param string $message message
+     *
+     * @return $this
+     */
+    public function setMessage($message)
+    {
+        $this->container['message'] = $message;
 
         return $this;
     }

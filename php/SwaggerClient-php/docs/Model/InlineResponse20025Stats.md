@@ -1,10 +1,9 @@
-# InlineResponse20055
+# InlineResponse20025Stats
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**result** | **string** |  | [optional] 
-**stats** | [****](.md) |  | [optional] 
+**top_referrers** | [**\Swagger\Client\Model\TopReferrersList**](TopReferrersList.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
